@@ -74,6 +74,7 @@ npm start
 - `POST /api/orders`: Creates a new order. Expects a JSON body with `productId` and `quantity` fields.
 - `PUT /api/orders/:id`: Updates the order with the specified ID. Expects a JSON body with `productId` and `quantity` fields.
 - `DELETE /api/orders/:id`: Deletes the order with the specified ID.
+  ![Screenshots](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/Mon%20Apr%2003%2020231668701006192.png)
 
 ## File Uploads
 
