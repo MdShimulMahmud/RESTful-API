@@ -24,30 +24,27 @@ This is a simple CRUD (Create, Read, Update, Delete) RESTful API built using Nod
 
 1. Clone the repository:
 
-```
-git clone https://github.com/MdShimulMahmud/RESTful-API.git
+```git clone https://github.com/MdShimulMahmud/RESTful-API.git
 
 ```
 
 2. Install dependencies:
 
 ```
-    cd RESTful-API
-    npm install
-
+cd RESTful-API
+npm install
 ```
 
 3. Create a `.env` file and add your MongoDB Atlas connection string and session secret:
 
 ```
-    MONGO_PASSWORD=<your-mongodb-atlas-uri>
-    JWT_KEY=<your-secret-key>
+MONGO_PASSWORD=<your-mongodb-atlas-uri>
+JWT_KEY=<your-secret-key>
 ```
 
 4. Start the application:
 
-```
-    npm start
+```npm start
 
 ```
 
