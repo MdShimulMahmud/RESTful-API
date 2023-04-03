@@ -59,6 +59,10 @@ npm start
 - `POST /api/users/signup`: Creates a new user account. Expects a JSON body with `email` and `password` fields.
 - `POST /api/users/login`: Authenticates a user. Expects a JSON body with `email` and `password` fields.
 
+#### Screenshot
+
+![Authentication](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/auth.JPG)
+
 ### Products
 
 - `GET /api/products`: Returns a list of all products.
@@ -66,6 +70,10 @@ npm start
 - `POST /api/products`: Creates a new product. Expects a JSON body with `name`, `price`, and `file` fields (for file upload).
 - `PUT /api/products/:id`: Updates the product with the specified ID. Expects a JSON body with `name` and `price` fields (for non-file updates).
 - `DELETE /api/products/:id`: Deletes the product with the specified ID.
+
+#### Screenshot
+
+![Products](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/products.JPG)
 
 ### Orders
 
@@ -75,6 +83,10 @@ npm start
 - `PUT /api/orders/:id`: Updates the order with the specified ID. Expects a JSON body with `productId` and `quantity` fields.
 - `DELETE /api/orders/:id`: Deletes the order with the specified ID.
 
+#### Screenshot
+
+![Orders](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/orders.JPG)
+
 ## File Uploads
 
 To upload files, send a `multipart/form-data` request with a `file` field containing the file to be uploaded.
@@ -82,7 +94,3 @@ To upload files, send a `multipart/form-data` request with a `file` field contai
 ## Security
 
 This API uses bcrypt for password hashing and verification to ensure secure authentication. Please make sure to set a strong JWT_KEY in your `.env` file to further enhance security.
-
-## Screenshots
-
-![A sample picture](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/Mon%20Apr%2003%2020231668701006192.png)
