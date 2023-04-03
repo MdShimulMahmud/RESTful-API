@@ -24,7 +24,8 @@ This is a simple CRUD (Create, Read, Update, Delete) RESTful API built using Nod
 
 1. Clone the repository:
 
-```git clone https://github.com/MdShimulMahmud/RESTful-API.git
+```
+git clone https://github.com/MdShimulMahmud/RESTful-API.git
 
 ```
 
@@ -32,6 +33,7 @@ This is a simple CRUD (Create, Read, Update, Delete) RESTful API built using Nod
 
 ```
 cd RESTful-API
+
 npm install
 ```
 
@@ -39,12 +41,14 @@ npm install
 
 ```
 MONGO_PASSWORD=<your-mongodb-atlas-uri>
+
 JWT_KEY=<your-secret-key>
 ```
 
 4. Start the application:
 
-```npm start
+```
+npm start
 
 ```
 
