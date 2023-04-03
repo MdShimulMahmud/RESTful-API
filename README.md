@@ -74,7 +74,6 @@ npm start
 - `POST /api/orders`: Creates a new order. Expects a JSON body with `productId` and `quantity` fields.
 - `PUT /api/orders/:id`: Updates the order with the specified ID. Expects a JSON body with `productId` and `quantity` fields.
 - `DELETE /api/orders/:id`: Deletes the order with the specified ID.
-  ![Screenshots](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/Mon%20Apr%2003%2020231668701006192.png)
 
 ## File Uploads
 
@@ -83,3 +82,7 @@ To upload files, send a `multipart/form-data` request with a `file` field contai
 ## Security
 
 This API uses bcrypt for password hashing and verification to ensure secure authentication. Please make sure to set a strong JWT_KEY in your `.env` file to further enhance security.
+
+## Screenshots
+
+![A sample picture](https://github.com/MdShimulMahmud/RESTful-API/blob/master/images/Mon%20Apr%2003%2020231668701006192.png)
