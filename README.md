@@ -24,7 +24,7 @@ This is a simple CRUD (Create, Read, Update, Delete) RESTful API built using Nod
 
 1. Clone the repository:
 
-`git clone https://github.com/MdShimulMahmud/RESTful-API.git`
+**git clone https://github.com/MdShimulMahmud/RESTful-API.git**
 
 2. Install dependencies:
 
