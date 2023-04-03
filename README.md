@@ -52,6 +52,12 @@ npm start
 
 ```
 
+## API Testing Tools
+
+```
+Postman
+```
+
 ## API Endpoints
 
 ### Authentication
